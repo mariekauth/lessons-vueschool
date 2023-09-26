@@ -1,7 +1,15 @@
 <script setup>
+import { ref } from 'vue'
+
+const text = ref('')
+
+function onInput(e) {
+  text.value = e.target.value
+}
 </script>
 <template>
-  <h3>The Lesson</h3>
+  <input :value="text" @input="onInput" placeholder="Type here">
+  <p>{{ text }}</p>
 </template>
 <style scoped>
 </style>

@@ -1,7 +1,13 @@
 <script setup>
+import { ref } from 'vue'
+
+const titleClass = ref('title')
 </script>
 <template>
-  <h3>The Lesson</h3>
+  <h1>Make me red</h1> <!-- add dynamic class binding here -->
 </template>
 <style scoped>
+.title {
+  color: red;
+}
 </style>

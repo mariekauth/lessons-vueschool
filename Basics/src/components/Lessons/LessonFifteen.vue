@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-  <h3>The Lesson</h3>
+  <p>The starter code for this template is a celebration. I'll add it when complete!</p>
 </template>
 <style scoped>
 </style>

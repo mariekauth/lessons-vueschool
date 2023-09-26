@@ -1,7 +1,12 @@
 <script setup>
+import { ref } from 'vue'
+import ChildComp from './ChildComp.vue'
+
+const msg = ref('from parent')
 </script>
+
 <template>
-  <h3>The Lesson</h3>
+  <ChildComp></ChildComp>
 </template>
 <style scoped>
 </style>

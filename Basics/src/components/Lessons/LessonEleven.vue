@@ -1,7 +1,9 @@
 <script setup>
+
 </script>
+
 <template>
-  <h3>The Lesson</h3>
+  <!-- render child component -->
 </template>
 <style scoped>
 </style>

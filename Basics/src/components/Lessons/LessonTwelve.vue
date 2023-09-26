@@ -1,7 +1,12 @@
 <script setup>
+import { ref } from 'vue'
+import ChildComp from './ChildComp.vue'
+
+const greeting = ref('Hello from parent')
 </script>
+
 <template>
-  <h3>The Lesson</h3>
+  <ChildComp />
 </template>
 <style scoped>
 </style>

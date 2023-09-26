@@ -1,7 +1,11 @@
 <script setup>
+import { ref } from 'vue'
+
+const pElementRef = ref(null)
 </script>
+
 <template>
-  <h3>The Lesson</h3>
+  <p ref="pElementRef">hello</p>
 </template>
 <style scoped>
 </style>
