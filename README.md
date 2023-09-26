@@ -81,11 +81,11 @@ This time, I chose to not install any options except the basic Project. (This in
   - Getting Started with Vue.js 3
   - Using Vue Devtools with Vue.js 3
   - Vue.js 3 template Syntax and Expressions
-  - List Rending in Vue 3
+  - List Rendering in Vue 3
   - User Inputs in Vue 3
   - User Events in Vue 3
   - Methods in Vue 3
-  - Conditional Rending in Vue 3
+  - Conditional Rendering in Vue 3
   - HTML Attribute Binding in Vue 3
   - Dynamic CSS classes with Vue 3
   - Computed Properties in Vue 3
@@ -101,7 +101,7 @@ This time, I chose to not install any options except the basic Project. (This in
   - Building for Production
   - Deploying a Static Site
   - Env Variables and Modes
-  - Server-Side Rending (SSR)
+  - Server-Side Rendering (SSR)
   - Backend Integration
   - Comparisons
   - Troubleshooting
