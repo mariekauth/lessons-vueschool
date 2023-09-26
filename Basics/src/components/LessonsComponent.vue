@@ -1,17 +1,31 @@
 <script setup>
 import LessonItem from './Lessons/LessonItem.vue'
 import LessonOne from './Lessons/LessonOne.vue'
+import LessonTwo from './Lessons/LessonTwo.vue'
+import LessonThree from './Lessons/LessonThree.vue'
+import LessonFour from './Lessons/LessonFour.vue'
+import LessonFive from './Lessons/LessonFive.vue'
+import LessonSix from './Lessons/LessonSix.vue'
+import LessonSeven from './Lessons/LessonSeven.vue'
+import LessonEight from './Lessons/LessonEight.vue'
+import LessonNine from './Lessons/LessonNine.vue'
+import LessonTen from './Lessons/LessonTen.vue'
+import LessonEleven from './Lessons/LessonEleven.vue'
+import LessonTwelve from './Lessons/LessonTwelve.vue'
+import LessonThirteen from './Lessons/LessonThirteen.vue'
+import LessonFourteen from './Lessons/LessonFourteen.vue'
+import LessonFifteen from './Lessons/LessonFifteen.vue'
 </script>
 <template>
   <LessonItem>
-    <template #heading>Lesson One</template>
+    <template #heading>Lesson One - Getting Started</template>
     <template #lesson><LessonOne /></template>
     The template tag. Place basic HTML within the template tag.<br />
     I have chosen to use Single-File Component (SFC) format to complete the tutorial.
     <hr />
   </LessonItem>
   <LessonItem>
-    <template #heading>Lesson Two</template>
+    <template #heading>Lesson Two - Declarative Rendering</template>
     <template #lesson><LessonTwo /></template>
     <hr />
   </LessonItem>

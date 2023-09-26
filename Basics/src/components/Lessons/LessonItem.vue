@@ -14,4 +14,8 @@
     </div>
   </template>
 <style scoped>
+  h3 {
+    color: purple;
+    font-weight: 900;
+  }
 </style>

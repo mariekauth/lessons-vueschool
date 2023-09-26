@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-  <h3>The Lesson</h3>
+  <h1>Hello World!</h1>
 </template>
 <style scoped>
 </style>

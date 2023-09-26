@@ -1,7 +1,8 @@
 <script setup>
+  import { ref } from 'vue'
 </script>
 <template>
-  <h3>The Lesson</h3>
+   <h1>Make me dynamic!</h1>
 </template>
 <style scoped>
 </style>
