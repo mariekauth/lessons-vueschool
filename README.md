@@ -1,9 +1,8 @@
 # Learning Vue
-
-## [vuejs.org](https://vuejs.org/tutorial/#step-1)
 Folder for following exercise - Basics.
 
 This time, I chose to not install any options except the basic Project. (This includes TypeScript)
+## [vuejs.org](https://vuejs.org/tutorial/#step-1)
   - Getting Started
   - Declarative Rendering
   - Attribute Bindings
