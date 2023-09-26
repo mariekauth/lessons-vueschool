@@ -1,7 +1,23 @@
 <script setup>
+import JSConfetti from 'js-confetti'
+
+const confetti = new JSConfetti()
+
+function showConfetti() {
+  confetti.addConfetti()
+}
+
+showConfetti()
 </script>
+
 <template>
-  <p>The starter code for this template is a celebration. I'll add it when complete!</p>
+  <h1 @click="showConfetti">🎉 Congratulations!</h1>
 </template>
-<style scoped>
+
+<style>
+h1 {
+  text-align: center;
+  cursor: pointer;
+  margin-top: 3em;
+}
 </style>
