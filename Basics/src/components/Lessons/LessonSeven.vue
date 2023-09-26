@@ -12,12 +12,22 @@ const todos = ref([
 ])
 
 function addTodo() {
-  // ...
+  todos.value.push({ id: id++, text: newTodo.value })
   newTodo.value = ''
 }
 
 function removeTodo(todo) {
-  // ...
+  todos.value = todos.value.filter((t) => t !== todo)
+}
+
+function reset() {
+  todos.value = [
+  { id: id++, text: 'Learn HTML' },
+  { id: id++, text: 'Learn JavaScript' },
+  { id: id++, text: 'Learn Vue' }    
+  ]
+
+  newTodo.value = ''
 }
 </script>
 
@@ -32,6 +42,7 @@ function removeTodo(todo) {
       <button @click="removeTodo(todo)">X</button>
     </li>
   </ul>
+  <button @click="reset">Reset</button>
 </template>
 <style scoped>
 </style>
