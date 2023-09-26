@@ -30,67 +30,67 @@ import LessonFifteen from './Lessons/LessonFifteen.vue'
     <hr />
   </LessonItem>
   <LessonItem>
-    <template #heading>Lesson Three</template>
+    <template #heading>Lesson Three - Attribute Bindings</template>
     <template #lesson><LessonThree /></template>
     <hr />
   </LessonItem>
   <LessonItem>
-    <template #heading>Lesson Four</template>
+    <template #heading>Lesson Four - Event Listeners</template>
     <template #lesson><LessonFour /></template>
     <hr />
   </LessonItem>
   <LessonItem>
-    <template #heading>Lesson Five</template>
+    <template #heading>Lesson Five - Form Bindings</template>
     <template #lesson><LessonFive /></template>
     <hr />
   </LessonItem>
   <LessonItem>
-    <template #heading>Lesson Six</template>
+    <template #heading>Lesson Six - Conditional Rendering</template>
     <template #lesson><LessonSix /></template>
     <hr />
   </LessonItem>
   <LessonItem>
-    <template #heading>Lesson Seven</template>
+    <template #heading>Lesson Seven - List Rendering</template>
     <template #lesson><LessonSeven /></template>
     <hr />
   </LessonItem>
   <LessonItem>
-    <template #heading>Lesson Eight</template>
+    <template #heading>Lesson Eight - Computed Property</template>
     <template #lesson><LessonEight /></template>
     <hr />
   </LessonItem>
   <LessonItem>
-    <template #heading>Lesson Nine</template>
+    <template #heading>Lesson Nine - Lifecycle and Template Refs</template>
     <template #lesson><LessonNine /></template>
     <hr />
   </LessonItem>
   <LessonItem>
-    <template #heading>Lesson Ten</template>
+    <template #heading>Lesson Ten - Watchers</template>
     <template #lesson><LessonTen /></template>
     <hr />
   </LessonItem>
   <LessonItem>
-    <template #heading>Lesson Eleven</template>
+    <template #heading>Lesson Eleven - Components</template>
     <template #lesson><LessonEleven /></template>
     <hr />
   </LessonItem>
   <LessonItem>
-    <template #heading>Lesson Twelve</template>
+    <template #heading>Lesson Twelve - Props</template>
     <template #lesson><LessonTwelve /></template>
     <hr />
   </LessonItem>
   <LessonItem>
-    <template #heading>Lesson Thirteen</template>
+    <template #heading>Lesson Thirteen - Emits</template>
     <template #lesson><LessonThirteen /></template>
     <hr />
   </LessonItem>
   <LessonItem>
-    <template #heading>Lesson Fourteen</template>
+    <template #heading>Lesson Fourteen - Slots</template>
     <template #lesson><LessonFourteen /></template>
     <hr />
   </LessonItem>
   <LessonItem>
-    <template #heading>Lesson Fifteen</template>
+    <template #heading>Lesson Fifteen - You Did It!</template>
     <template #lesson><LessonFifteen /></template>
     <hr />
   </LessonItem>
