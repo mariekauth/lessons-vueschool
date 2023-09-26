@@ -1,8 +1,11 @@
 <script setup>
+const props = defineProps({
+  msg: String
+})
 </script>
 
 <template>
-  I am a child
+  {{ msg || 'I am a child' }}
 </template>
 <style scoped>
 </style>
