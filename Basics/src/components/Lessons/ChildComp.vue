@@ -9,7 +9,7 @@ emit('response', 'hello from child')
 </script>
 
 <template>
-  {{ msg || 'I am a child' }}
+  <slot>{{ msg || 'I am a child' }}</slot>
 </template>
 <style scoped>
 </style>

@@ -6,7 +6,7 @@ const msg = ref('from parent')
 </script>
 
 <template>
-  <ChildComp></ChildComp>
+  <ChildComp>This was setup using slots, there is more than covered in the tutorial.</ChildComp>
 </template>
 <style scoped>
 </style>
